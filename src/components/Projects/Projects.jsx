@@ -4,10 +4,22 @@ import './Projects.css';
 function Projects() {
   const projects = [
     {
-      title: 'Project 1',
-      image: '/src/assets/project1.jpg',
-      deployedLink: 'https://deployedapp1.com',
-      githubLink: 'https://github.com/username/project1'
+      title: 'Marvel Lookup',
+      image: '/src/assets/marvelLookup.png',
+      deployedLink: 'https://egarza0614.github.io/marvel_lookup/',
+      githubLink: 'https://github.com/egarza0614/marvel_lookup'
+    },
+    {
+      title: 'The HVAC Pocket Technician',
+      image: '/src/assets/pocketHvac.png',
+      deployedLink: 'https://brenj23.github.io/The-Pocket-HVAC-Technician/',
+      githubLink: 'https://github.com/brenj23/The-Pocket-HVAC-Technician'
+    },
+    {
+      title: 'Personal Blog',
+      image: '/src/assets/personalBlog.png',
+      deployedLink: 'https://brenj23.github.io/Personal-Blog/',
+      githubLink: 'https://github.com/brenj23/Personal-Blog'
     },
     // Add more projects here
   ];

@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <header>
-      <h1>Developer Name</h1>
+      <h1>Bren Broussard</h1>
       <Nav />
     </header>
   );

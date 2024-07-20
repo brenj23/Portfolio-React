@@ -4,7 +4,7 @@ function About() {
   return (
     <section>
       <h2>About Me</h2>
-      <img src="/src/assets/avatar.jpg" alt="Developer Avatar" />
+      <img src="/src/assets/profile-pic.png" alt="Developer Avatar" />
       <p>Short bio about the developer.</p>
     </section>
   );
