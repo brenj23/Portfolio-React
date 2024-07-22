@@ -1,14 +1,15 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import envCompatible from 'vite-plugin-env-compatible';
 
 export default defineConfig({
-  plugins: [react(), envCompatible()],
+  plugins: [react()],
   server: {
-    port: process.env.PORT || 3000,  // Use the PORT environment variable if available
-    open: true,
+    port: 3000,
+    open: true
   },
   build: {
-    outDir: 'dist',
-  },
+    rollupOptions: {
+      external: ['react-router-dom']
+    }
+  }
 });
