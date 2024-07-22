@@ -9,7 +9,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 ```
 
 ## Description
-A portfolio webpage of some projects I have done. I used React to code project.
+A portfolio webpage of some projects I have done. I used React to code project and email.js for contact page for individuals to contact me by email directly from webpage.
 
 ## Screenshots
 
