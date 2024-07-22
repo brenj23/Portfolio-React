@@ -4,21 +4,43 @@ section {
   margin: 0 auto;
 }
 
-.image-container {
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.resume-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px; /* Add padding to ensure space between content and footer */
+}
+
+.resume-content a {
+  margin: 20px 0;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.resume-content a:hover {
+  text-decoration: underline;
+}
+
+.resume-content h3 {
+  margin-top: 40px;
+  font-size: 1.5em;
+}
+
+.resume-content div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center;
+  gap: 10px;
 }
 
-.image-container code {
-  margin: 10px; /* Add some spacing between images */
-}
-
-.image-container img {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 5px;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.resume-content img {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
 }
