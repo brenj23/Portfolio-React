@@ -3,7 +3,7 @@ services:
     name: react-portfolio
     env: node
     plan: free
-    buildCommand: npm ci && npm run build
+    buildCommand: npm i && npm run build
     startCommand: npm run dev
     envVars:
       - key: NODE_ENV
