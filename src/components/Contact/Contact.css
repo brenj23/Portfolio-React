@@ -7,6 +7,7 @@ section {
 form {
   display: flex;
   flex-direction: column;
+  padding-bottom: 80px;
 }
 
 form div {
@@ -41,6 +42,7 @@ form input[type="submit"]:hover,
 form button[type="submit"]:hover {
   background-color: #0056b3; /* Change to your preferred hover color */
   transform: translateY(-2px);
+
 }
 
 .error {
