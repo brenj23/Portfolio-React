@@ -3,8 +3,8 @@ services:
     name: react-portfolio
     env: node
     plan: free
-    buildCommand: npm install && npm run build
-    startCommand: npm run dev
+    buildCommand: npm ci && npm run build
+    startCommand: npm run preview -- --port $PORT
     envVars:
       - key: NODE_ENV
         value: production
