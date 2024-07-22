@@ -4,12 +4,11 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 10000,
-    open: true
+    host: '0.0.0.0',  // Ensure the server binds to 0.0.0.0
+    port: 3000,  // Use the PORT environment variable if available
+    open: true,
   },
   build: {
-    rollupOptions: {
-      external: ['react-router-dom']
-    }
-  }
+    outDir: 'dist',
+  },
 });
